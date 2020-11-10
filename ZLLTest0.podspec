@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZLLTest0'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ZLLTest0.'
+  s.version          = '0.0.1'
+  s.summary          = '这是一个测试公共库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,9 +27,9 @@ TODO: Add long description of the pod here.
   s.author           = { 'xiaoledeai' => '18856462662@163.com' }
   s.source           = { :git => 'https://github.com/xiaoledeai/ZLLTest0.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.swift_version = '4.0'
+  s.ios.deployment_target = '9.0'
+  s.source_files = 'JYTest0/Classes/**/*.{h,m}'
   s.source_files = 'ZLLTest0/Classes/**/*'
   
   # s.resource_bundles = {
