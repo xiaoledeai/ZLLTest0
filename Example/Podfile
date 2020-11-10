@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZLLTest0_Example' do
+  pod 'ZLLTest0', :path => '../'
+
+  target 'ZLLTest0_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
